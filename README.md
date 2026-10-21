@@ -36,6 +36,12 @@ plugin_manager(action: "install_bundle", target: "git+https://github.com/an-an-6
 plugin_manager(action: "install_bundle", target: "/absolute/path/to/intelligent-ui")
 ```
 
+## Showcase
+
+![Intelligent UI 在 DSH 对话中的真实卡片](assets/showcase.webp)
+
+同一轮对话里，卡片承载科目、难度、自命题和开始按钮；选择在浏览器本地完成，点击提交后作为一条普通用户消息回到模型。
+
 ## v6.1 的卡片能长什么样
 
 `spec.controls` 是递归节点树，容器可以嵌套：
