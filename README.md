@@ -6,6 +6,36 @@
 
 架构借鉴了社区实现 `@comeonzhj/dsh-intelligent-ui` 的分层（声明式 spec、宿主编译、`presentationMeta` 持久化、toolview + turnTail、本地交互、显式提交），但换掉了它不可靠的 Worker 沙箱：v4 不执行任何模型生成的 JavaScript，只解释 Host 编译出的纯数据 program。
 
+## 安装
+
+### 从插件市场安装（推荐）
+
+DSH 的市场索引需要手动添加源：
+
+1. 打开「插件 → 发现」，在索引源里添加：
+
+   ```text
+   https://cdn.jsdelivr.net/gh/an-an-618/dsh-intelligent-ui@main/market/index.json
+   ```
+
+2. 搜索 `Intelligent UI` 或「智能界面」，安装后重启 DSH。
+
+索引指向固定 commit，安装可复现；发版后索引会更新。
+
+### 直接安装（固定 commit）
+
+```text
+plugin_manager(action: "install_bundle", target: "git+https://github.com/an-an-618/dsh-intelligent-ui.git#289674809a88fbd347f0e3c2f0c12f3b8b3ae807")
+```
+
+安装后重启 DSH 生效。
+
+### 从本地目录安装（开发）
+
+```text
+plugin_manager(action: "install_bundle", target: "/absolute/path/to/intelligent-ui")
+```
+
 ## v6.1 的卡片能长什么样
 
 `spec.controls` 是递归节点树，容器可以嵌套：
