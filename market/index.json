@@ -88,14 +88,14 @@
       "versions": [
         {
           "version": "6.5.0",
-          "publishTimestamp": 1792568301,
+          "publishTimestamp": 1792568404,
           "source": {
             "type": "git",
             "url": "https://github.com/an-an-618/dsh-intelligent-ui",
-            "commit": "63d03b836d188cc7700e8acc41a354cce187cbeb"
+            "commit": "289674809a88fbd347f0e3c2f0c12f3b8b3ae807"
           },
           "engines": {
-            "dsh": ">=0.2.1"
+            "dsh": ">=0.2.1-rc.2"
           }
         }
       ]
