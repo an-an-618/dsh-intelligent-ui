@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Intelligent UI",
+    "description": "Let the model render interactive cards from a declarative spec: sliders, switches, selects, tables and charts run locally and submit back as one user message."
+  }
+}

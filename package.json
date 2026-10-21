@@ -1,0 +1,70 @@
+{
+  "name": "@an-an-618/dsh-intelligent-ui",
+  "version": "6.5.0",
+  "description": "Intelligent UI for DeepSeek Harness: the model writes a declarative spec, the Host compiles it into a JSON program, and a Client interpreter renders interactive cards with local state and explicit submit.",
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "intelligent-ui",
+    "generative-ui",
+    "interactive-cards",
+    "declarative-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an-an-618/dsh-intelligent-ui.git"
+  },
+  "homepage": "https://github.com/an-an-618/dsh-intelligent-ui#readme",
+  "bugs": {
+    "url": "https://github.com/an-an-618/dsh-intelligent-ui/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs",
+    "market:index": "node scripts/build-market-index.mjs"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.5"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/*.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-tool",
+        "@deepseek-ai/dsh-client-ui-chat"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Intelligent UI">
+  <rect x="6" y="10" width="52" height="44" rx="8" fill="#247bbf"/>
+  <rect x="14" y="19" width="20" height="4" rx="2" fill="#ffffff" opacity="0.92"/>
+  <rect x="14" y="28" width="36" height="4" rx="2" fill="#ffffff" opacity="0.6"/>
+  <circle cx="36" cy="40" r="5" fill="#ffffff"/>
+  <rect x="10" y="40" width="21" height="3" rx="1.5" fill="#ffffff" opacity="0.55"/>
+  <rect x="45" y="37" width="9" height="6" rx="3" fill="#ffffff" opacity="0.8"/>
+</svg>

@@ -1,0 +1,18 @@
+# Bundle layer for @an-an-618/dsh-intelligent-ui.
+#
+# One Host row carries both halves:
+#   * index.js + lib/  the model-facing tools, the compiler, the catalog and the
+#                      system-prompt section;
+#   * client.js        the browser interpreter discovered from `dsh.client`.
+- insert:
+    - id: intelligent-ui
+      name: '@an-an-618/dsh-intelligent-ui'
+      config:
+        prompt: true
+        language: zh
+        # 'cards-first' = 应出尽出（默认）；'balanced' = 只在结构化回答时出卡。
+        outputPolicy: cards-first
+        # Empty host list = any host; set e.g. ["images.example.com"] to restrict.
+        imageHosts: []
+        # Images are https-only unless this is true.
+        allowHttpImages: false
