@@ -26,7 +26,7 @@
     "url": "https://github.com/an-an-618/dsh-intelligent-ui/issues"
   },
   "engines": {
-    "dsh": ">=0.2.1"
+    "dsh": ">=0.2.1-rc.2"
   },
   "scripts": {
     "check": "node scripts/check.mjs",
