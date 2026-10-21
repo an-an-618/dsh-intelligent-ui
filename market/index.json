@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Intelligent UI Cards",
+    "zh": "智能界面卡片"
+  },
+  "description": {
+    "en": "Declarative, interactive cards for DeepSeek Harness: the model writes a spec, the Host compiles it, the Client renders it with local state and an explicit submit.",
+    "zh": "给 DeepSeek Harness 的声明式交互卡片：模型写 spec，Host 编译，Client 用本地状态渲染，提交才回传。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      },
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率"
+        }
+      }
+    },
+    "labels": {
+      "interactive": {
+        "title": {
+          "en": "Interactive",
+          "zh": "可交互"
+        }
+      },
+      "cards": {
+        "title": {
+          "en": "Cards",
+          "zh": "卡片"
+        }
+      },
+      "generative-ui": {
+        "title": {
+          "en": "Generative UI",
+          "zh": "生成式界面"
+        }
+      },
+      "charts": {
+        "title": {
+          "en": "Charts",
+          "zh": "图表"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@an-an-618/dsh-intelligent-ui",
+      "title": {
+        "en": "Intelligent UI",
+        "zh": "智能界面"
+      },
+      "description": {
+        "en": "Render answers as interactive cards: forms, tables, charts, sliders, lists and choice cards, with local state and explicit submit. Includes a visual output-policy switch.",
+        "zh": "把回答变成可交互卡片：表单、表格、图表、滑块、列表和选项卡，本地交互、显式提交，带可视化输出策略开关。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJJbnRlbGxpZ2VudCBVSSI+CiAgPHJlY3QgeD0iNiIgeT0iMTAiIHdpZHRoPSI1MiIgaGVpZ2h0PSI0NCIgcng9IjgiIGZpbGw9IiMyNDdiYmYiLz4KICA8cmVjdCB4PSIxNCIgeT0iMTkiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC45MiIvPgogIDxyZWN0IHg9IjE0IiB5PSIyOCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjYiLz4KICA8Y2lyY2xlIGN4PSIzNiIgY3k9IjQwIiByPSI1IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHJlY3QgeD0iMTAiIHk9IjQwIiB3aWR0aD0iMjEiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC41NSIvPgogIDxyZWN0IHg9IjQ1IiB5PSIzNyIgd2lkdGg9IjkiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuOCIvPgo8L3N2Zz4K",
+      "author": "an-an-618",
+      "homepage": "https://github.com/an-an-618/dsh-intelligent-ui#readme",
+      "repository": {
+        "url": "https://github.com/an-an-618/dsh-intelligent-ui"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "intelligent-ui",
+          "generative-ui",
+          "cards",
+          "charts",
+          "interactive",
+          "dsh-plugin"
+        ],
+        "labels": [
+          "interactive",
+          "cards",
+          "generative-ui",
+          "charts"
+        ]
+      },
+      "versions": [
+        {
+          "version": "6.5.0",
+          "publishTimestamp": 1792568301,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/an-an-618/dsh-intelligent-ui",
+            "commit": "63d03b836d188cc7700e8acc41a354cce187cbeb"
+          },
+          "engines": {
+            "dsh": ">=0.2.1"
+          }
+        }
+      ]
+    }
+  ]
+}
